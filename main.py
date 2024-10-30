@@ -69,7 +69,7 @@ while "".join(guess) != daWord and wrong_attempts < 8:
 
     reps += 1
 
-# Final result
+#game results
 if "".join(guess) == daWord:
     print(f"WON! The word was '{daWord}'.")
 else:
